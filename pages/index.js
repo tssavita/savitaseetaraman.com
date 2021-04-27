@@ -1,7 +1,5 @@
 import Head from 'next/head';
 import Fade from 'react-reveal/Fade';
-import 'node_modules/bootstrap/dist/css/bootstrap.css';
-import 'node_modules/bootstrap/dist/css/bootstrap.min.css';
 
 export default function Home() {
   return (
