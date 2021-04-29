@@ -1,5 +1,6 @@
 import Head from 'next/head';
 import Fade from 'react-reveal/Fade';
+import "bootstrap/dist/css/bootstrap.min.css";
 
 export default function Home() {
   return (
@@ -8,47 +9,70 @@ export default function Home() {
         <title>Savita Seetaraman</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      
+      <header class="intro">
+        <div class="intro-body">
+          <div class="container">
+            <div class="row">
+              <div class="col-md-10 col-md-offset-1">
+                <h1 class="brand-heading">&nbsp;</h1>
+                <h1 class="brand-heading">&nbsp;</h1>
+                <span class="intro-text"></span>
+                    <a href="#about" class="page-scroll">
+                      <img class="img-me" src="./positano.jpg" alt="" />          
+                    </a> 
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main>
       <h1 className="website-title">
         Savita Seetaraman 
       </h1>
       <ul className="nav">
         <li><a class="page-scroll" href="#about">About me</a></li>
-        <li><a href="/timeline">Timeline</a></li>
-        <li><a href="/blog">Blog</a></li>
+        <li><a href="#timeline">Timeline</a></li>
+        <li><a href="#blog">Blog</a></li>
       </ul>
       <div>
-        <h1>Blog</h1>
-        <div className="grid">
-          <a href="https://nextjs.org/docs" className="card">
-            <h3>Documentation &rarr;</h3>
-            <p>Find in-depth information about Next.js features and API.</p>
-          </a>
-
-          <a href="https://nextjs.org/learn" className="card">
-            <h3>Learn &rarr;</h3>
-            <p>Learn about Next.js in an interactive course with quizzes!</p>
-          </a>
-
-          <a
-            href="https://github.com/vercel/next.js/tree/master/examples"
-            className="card"
-          >
-            <h3>Examples &rarr;</h3>
-            <p>Discover and deploy boilerplate example Next.js projects.</p>
-          </a>
-        </div>
-        <section id="about" class="container content-section text-center">
-          <div class="row">
-            <div class="section col-md-offset-1">
-              <h1 id="about-me">About me</h1>
-                <p>
+          <section id="about" class="container content-section text-center">
+            <div class="row">
+              <div class="section col-md-offset-1">
+                <h1 id="about-me" className="website-title">About me</h1>
+                <p className="text-center">
                   DevOps Engineer. Open source enthusiast. Music lover. Seeker of unexplored landscapes.
                 </p> 
+              </div>
             </div>
+          </section>
+          <section id="blog" class="container content-section text-center">
+            <div class="row">
+              <div class="section col-md-offset-1">
+                <h1>Blog</h1>
+                <div className="grid">
+                <a href="https://nextjs.org/docs" className="card">
+                  <h3>Documentation &rarr;</h3>
+                  <p>Find in-depth information about Next.js features and API.</p>
+                </a>
+
+                <a href="https://nextjs.org/learn" className="card">
+                  <h3>Learn &rarr;</h3>
+                  <p>Learn about Next.js in an interactive course with quizzes!</p>
+                </a>
+
+                <a
+                  href="https://github.com/vercel/next.js/tree/master/examples"
+                  className="card">
+                  <h3>Examples &rarr;</h3>
+                  <p>Discover and deploy boilerplate example Next.js projects.</p>
+                </a>
+                </div>
+              </div>
+            </div>
+          </section>
           </div>
-        </section>
-      </div>
+        </main>
+
       <style jsx>{`
         .container {
           min-height: 100vh;
