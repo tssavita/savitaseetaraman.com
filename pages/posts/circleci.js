@@ -11,7 +11,9 @@ export default function Home() {
      <article>
         <h1 className={utilStyles.headingXl}>CircleCI: A beginner's guide</h1>
         <p className={utilStyles.headingMd}>Test</p>
-          Test
+          Some of the concepts of CircleCI are projects, configuration files, 
+          pipelines, orbs, jobs, steps, image, workflows, executors and images, 
+          caches, workspaces and artifacts.
       </article>
     </Layout>
   )
