@@ -13,10 +13,16 @@ export default function Home() {
 
         <section className={utilStyles.headingMd}>
           <p>
-            Hi, I am Savita. I am a DevOps Engineer at Paidy. 
-            <br /> 
+            Hi, I am Savita. I am a DevOps Engineer. I am passionate about music, 
+            travel and learning new things. 
             <br />
-            I am also passionate about music, travel and learning new things. 
+            <br />
+            You can follow me on &nbsp;
+            <Link href="https://www.linkedin.com/in/savitaseetaraman/">
+              <a>LinkedIn</a></Link> and &nbsp;
+            <Link href="https://twitter.com/savitats">
+              <a>Twitter</a>
+            </Link>.
           </p>
         </section>
         <section className={`${utilStyles.headingMd} ${utilStyles.padding1px}`}>  
