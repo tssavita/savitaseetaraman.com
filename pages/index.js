@@ -30,7 +30,19 @@ export default function Home() {
           <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
               <Link href={"posts/circleci"}>
-                <a>CircleCI</a>
+                <a>CircleCI Part 1: Basic Concepts</a>
+              </Link>
+              <br />
+            </li>
+            <li className={utilStyles.listItem}>
+              <Link href={"posts/datadog"}>
+                <a>Datadog: Monitoring infrastructure, applications and logs</a>
+              </Link>
+              <br />
+            </li>
+            <li className={utilStyles.listItem}>
+              <Link href={"posts/awsiam"}>
+                <a>AWS Identity and Access Management</a>
               </Link>
               <br />
             </li>
