@@ -8,7 +8,7 @@ export default function Home() {
     <Layout home>
         <Head>
           <title>Savita Seetaraman</title>
-          <link rel="icon" href="/favicon.ico" />
+          <link rel="icon" href="/tablogo.png" />
         </Head>
 
         <section className={utilStyles.headingMd}>
