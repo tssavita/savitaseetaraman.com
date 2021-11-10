@@ -1,5 +1,5 @@
-import Head from 'next/Head'
-import Link from 'next/Link'
+import Head from 'next/head'
+import Link from 'next/link'
 import utilStyles from '../../styles/utils.module.css'
 import Layout from '../../components/layout'
 
@@ -32,6 +32,7 @@ export default function Home() {
                             by opening a pull request in the feature branch. 
                         </li>
                     </ul>
+
                 </p>
             </article>
         </Layout>
