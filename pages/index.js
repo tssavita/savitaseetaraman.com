@@ -35,6 +35,12 @@ export default function Home() {
               <br />
             </li>
             <li className={utilStyles.listItem}>
+              <Link href={"posts/featureflow"}>
+                <a>Git Feature Workflow</a>
+              </Link>
+              <br />
+            </li>
+         {/*    <li className={utilStyles.listItem}>
               <Link href={"posts/datadog"}>
                 <a>Datadog: Monitoring infrastructure, applications and logs</a>
               </Link>
@@ -45,7 +51,7 @@ export default function Home() {
                 <a>AWS Identity and Access Management</a>
               </Link>
               <br />
-            </li>
+            </li> */}
           </ul>
         </section>
 

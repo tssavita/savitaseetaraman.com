@@ -1,7 +1,6 @@
 import Head from 'next/head'
 import utilStyles from '../../styles/utils.module.css'
 import Layout from '../../components/layout'
-import { urlObjectKeys } from 'next/dist/shared/lib/utils'
 
 export default function Home() {
   return (
