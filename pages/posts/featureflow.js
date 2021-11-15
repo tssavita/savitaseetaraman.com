@@ -32,7 +32,20 @@ export default function Home() {
                             by opening a pull request in the feature branch. 
                         </li>
                     </ul>
-
+                    <h2>Git Steps</h2>
+                        <pre>
+                            git checkout main <br />
+                            git fetch origin <br />
+                            git reset --HARD origin/main <br />
+                            <br />
+                            git checkout -b feature_branch <br />
+                            <br />
+                            git status <br />
+                            git add file_name <br />
+                            git commit -m "message" <br />
+                            <br />
+                            git push -u origin feature_branch
+                        </pre>
                 </p>
             </article>
         </Layout>
