@@ -9,7 +9,7 @@ export default function Home() {
         <title>Savita Seetaraman</title>
       </Head>
      <article>
-        <h1 className={utilStyles.headingXl}>CircleCI Part 1: Some basic concepts</h1>
+        <h1 className={utilStyles.headingXl}>Basic Concepts of CircleCI: Part 1</h1>
         <p>
           CircleCI is a continuous integration and delivery tool. The following are some
           basic concepts of CircleCI. Half of them shall be covered in this post. There 
@@ -22,9 +22,7 @@ export default function Home() {
             <li>workflows,</li>
             <li>orbs,</li>
             <li>caches,</li>
-            <li>context,</li>
-            <li>workspaces,</li>
-            <li>artifacts.</li>
+            <li>contexts.</li>
           </ol>
         </p>
         <h2>Configuration</h2>
