@@ -46,6 +46,12 @@ export default function Home() {
               </Link>
               <br />
             </li>
+            <li className={utilStyles.listItem}>
+              <Link href={"posts/leetcode_challenge_day1"}>
+                <a>LeetCode Streak Challenge - Day 1/30 - Reverse list</a>
+              </Link>
+              <br />
+            </li>
           </ul>
         </section>
 
