@@ -10,7 +10,12 @@ export default function Home() {
       </Head>
      <article>
         <h1 className={utilStyles.headingXl}>LeetCode Streak Challenge - Day 1/30 - Reverse list</h1>
-        I have decided to keep up a 30 day streak on LeetCode starting today. The idea is to be consistent, so I will start with 2 problems per day.
+        I have decided to keep up a 30 day streak on LeetCode starting today. The idea is to be consistent, 
+        so I will start with 2 problems per day.
+
+        This blog post has also been posted to <a href="https://dev.to/tssavita/leetcode-streak-challenge-day-130-reverse-list-lcp">
+        https://dev.to/tssavita/leetcode-streak-challenge-day-130-reverse-list-lcp
+        </a>.
         <h2>Problem 1: Reversing a list</h2>
 
         <p>
