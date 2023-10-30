@@ -30,7 +30,7 @@ export default function Home() {
           <ul className={utilStyles.list}>
             <li className={utilStyles.listItem}>
               <Link href={"posts/circleci"}>
-                <a>CircleCI Part 1: Basic Concepts</a>
+                <a>CircleCI: Basic Concepts</a>
               </Link>
               <br />
             </li>
@@ -39,6 +39,16 @@ export default function Home() {
                 <a>Git Feature Workflow</a>
               </Link>
               <br />
+            </li>
+            <li className={utilStyles.listItem}>
+              <Link href={"posts/circleci_contexts"}>
+                <a>CircleCI: Contexts</a>
+              </Link>
+            </li>
+            <li className={utilStyles.listItem}>
+              <Link href={"posts/awsiam"}>
+                <a>AWS IAM</a>
+              </Link>
             </li>
          {/*    <li className={utilStyles.listItem}>
               <Link href={"posts/datadog"}>
@@ -53,6 +63,9 @@ export default function Home() {
               <br />
             </li> */}
           </ul>
+        </section>
+        <section>
+          <h2 className={utilStyles.headingLg}>Timeline</h2>
         </section>
 
     </Layout>
